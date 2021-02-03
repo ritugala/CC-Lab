@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="./../static/style.css" rel="stylesheet">
+
+        <title>Middle Ground</title>
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <img class="sitelogo" src="./../static/img/logo.png">
+                <a class="navbar-brand" href="#">Middle Ground</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#connect">Connect</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--- Carousel -->
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./../static/img/new1.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Middle Ground</h1>
+                        <h3>We make people meet</h3>
+                        <button id="myButton" class="submit-button btn btn-dark btn-lg">Get Started</button>
+                        <script type="text/javascript">
+                            document.getElementById("myButton").onclick = function () {
+                                location.href = "dynamic";
+                            };
+                        </script>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../static/img/new5.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Middle Ground</h1>
+                        <h3>We make people meet</h3>
+                        <button id="myButton2" class="submit-button btn btn-dark btn-lg">Get Started</button>
+                        <script type="text/javascript">
+                            document.getElementById("myButton2").onclick = function () {
+                                location.href = "dynamic";
+                            };
+                        </script>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./../static/img/new3.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h1 class="display-2">Middle Ground</h1>
+                        <h3>We make people meet</h3>
+                        <button id="myButton3" class="submit-button btn btn-dark btn-lg">Get Started</button>
+                        <script type="text/javascript">
+                            document.getElementById("myButton3").onclick = function () {
+                                location.href = "dynamic";
+                            };
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--- Jumbotron -->
+
+        <div id="about" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center">How to use it</h1>
+                <hr style="border-top: 1px solid black;">
+                <ul style="list-style-type:none" class=" lead text-center ">
+                    <h3>
+                        <li class="list-pad"><i class="fas fa-users"></i> Gather your friends</li>
+                        <li class="list-pad"><i class="fas fa-location-arrow"></i> Share your locations with us</li>
+                        <li class="list-pad"><i class="fas fa-coffee"></i> Get a midpoint to meet thats convenient for everyone</li>
+                        <li class="list-pad"><i class="fas fa-utensils"></i> Find places to hang out near you</li>
+                        <li class="list-pad"><i class="fab fa-angellist"></i> Enjoy hassle free meet-ups</li>
+                    </h3>
+                </ul>
+            </div>
+        </div>
+
+        <!--- Meet the team -->
+
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 id="team" class="display-4">Meet The Team</h1>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./../static/img/ruchiprofilenew.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Ruchi Mehta</h4>
+                            <p class="card-text">Student at VJTI, CS.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./../static/img/rituinsta (2).jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Ritu Gala</h4>
+                            <p class="card-text">Student at VJTI, CS.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./../static/img/rachanaprofile.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Rachana Chaudhari</h4>
+                            <p class="card-text">Student at VJTI, IT.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="my-4">
+        </div>
+        </div>
+        </div>
+
+
+        <!--- Connect -->
+        <div id="about" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="container-fluid padding">
+                    <div class="row text-center padding">
+                        <div id="connect" class="col-12">
+                            <h2>Connect</h2>
+                        </div>
+                        <hr style="border-top: 1px solid black;">
+                        <div class="col-12 social padding">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5 class="text-dark text-center">&copy; Middle Ground</h5>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
